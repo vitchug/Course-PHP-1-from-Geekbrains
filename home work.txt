@@ -119,12 +119,13 @@ break;
 
 Задание №3
 
+<?php
+
 function mathOperation($a, $d){
-	
-	$a = 3;
-	$d = 6;
 
 	$c = (($a + $d) / 2) *4;
-	echo $c;
-
+	return $c;
 }
+
+echo mathOperation(3, 6);
+?>

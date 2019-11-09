@@ -1,0 +1,139 @@
+﻿Задание №1
+
+<?php
+
+$a = 7;
+$b = 15;
+
+if($a>0 and $b>0){
+echo($a-$b);
+}
+
+if($a<0 and $b<0){
+echo($a*$b);
+}
+
+if($a<0 and $b>0 || $a>0 and $b<0){
+echo($a+$b);
+}
+
+Задание №2
+
+<?php
+$a = 6;
+
+switch($a){
+case 1:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 2; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;
+	
+case 2:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 3; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;	
+
+case 3:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 4; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+break;
+	
+case 4:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 5; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;
+	
+case 5:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 6; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;	
+
+case 6:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 7; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+break;
+
+case 7:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 8; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;
+	
+case 8:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 9; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;	
+
+case 9:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 10; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+break;
+	
+case 10:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 11; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;
+	
+case 11:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 12; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;	
+
+case 12:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 13; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+break;	
+
+case 13:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 14; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;
+	
+case 14:
+	print $a. " - <u><strong>Это заданная переменная</strong></u> <br> ";
+	for($a = 15; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+	break;	
+
+case 15:
+	print $a. " - <u><strong>Это заданная переменная и последнее число</strong></u> <br> ";
+	for($a = 16; $a<=15; $a++)
+		echo $a. " -  это оставшиеся число <br>";
+break;			
+}
+
+
+
+
+Задание №3
+
+<?php
+
+function mathOperation($a, $d){
+
+	$c = (($a + $d) / 2) *4;
+	return $c;
+}
+
+echo mathOperation(3, 6);
+?>
+
+
+#Задание 4  //Не понял как делать!!!
+
+function mathOperation($arg1, $arg2, $operation){
+
+mathOperation_1($arg1, $arg2)
+}

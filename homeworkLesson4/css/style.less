@@ -1,0 +1,69 @@
+//compress: true
+
+@bgBody: #53c4bb;
+@bgSect: white;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: @bgBody;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 32px;
+    color: indianred;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.main {
+    display: flex;
+    align-content: flex-start;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    width: 1100px;
+    height: auto;
+    background-color: @bgSect;
+    margin: 0 auto;
+}
+
+.img {
+    display: flex;
+}
+
+#center {
+    flex-direction: row-reverse;
+}
+
+img {
+    display: block;
+    width: 150px;
+    height: 100px;
+    border: 5px solid grey;
+    margin: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+     transition: all 0.8s ease-in-out;
+}
+
+img:hover {
+     transform: scaleX(-1);
+}
+
+form {
+    display: block;
+    margin: 50px 0 50px 150px;
+    width: 300px;
+}
+
+form p {
+    font-size: 1.3em;
+    font-style: italic;
+    color: blueviolet;
+}
+
+input {
+    font-size: 18px;
+}
+
